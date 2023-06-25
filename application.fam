@@ -2,15 +2,15 @@
 
 App(
     appid="cntdown_tim",
-    name="Count Down Timer",
+    name="Countdown Timer",
     apptype=FlipperAppType.EXTERNAL,
     entry_point="app_main",
-    cdefines=["APP_COUNT_DOWN_TIMER"],
+    cdefines=["APP_COUNTDOWN_TIMER"],
     requires=[
         "gui",
     ],
     stack_size=2 * 1024,
     order=20,
     fap_icon="cntdown_timer.png",
-    fap_category="0w0mewo",
+    fap_category="Misc",
 )
